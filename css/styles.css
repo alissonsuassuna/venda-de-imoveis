@@ -1,1 +1,129 @@
-/* CSS da página */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1340px;
+  margin: 0 auto;
+}
+
+nav {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logo span {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35.19px;
+  font-style: italic;
+  color: #2947a9;
+}
+
+.menu {
+  display: flex;
+  gap: 50px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #14171f;
+  list-style: none;
+  font-weight: 400;
+}
+
+.menu li a {
+  text-decoration: none;
+}
+
+.ativo {
+  color: #f9995d;
+}
+
+/* SECTION LOGO */
+.hero-logo {
+  height: 90vh;
+  background-image: url("../assets/images/architecture-g91c54e904_1280.jpg");
+  background-size: cover;
+  position: relative;
+}
+.hero-logo .opacidade {
+  height: 90vh;
+  background-color: #fff;
+  opacity: 0.8;
+}
+.hero-logo h1 {
+  position: absolute;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 72px;
+  color: #292e3d;
+  line-height: 84px;
+  width: 556px;
+  height: 168px;
+  opacity: 1;
+  /* left: calc(50% - 556px / 2 - 330px); */
+  top: 239px;
+}
+
+.features {
+  position: absolute;
+  right: 0;
+  bottom: 40px;
+  padding: 20px 52px;
+  width: 416px;
+  height: 150px;
+  background: #3559c7;
+}
+
+.features h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+
+.features p {
+  position: absolute;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+
+  font-size: 24px;
+  margin-bottom: 26px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #fff;
+}
+
+.features button {
+  position: absolute;
+  bottom: -40px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  background-color: #292e3d;
+  color: #fff;
+  width: 208px;
+  height: 40px;
+  padding: 4px 20px;
+  border: none;
+}
+
+.features .btn-next {
+  right: 0;
+}
+.features .btn-back {
+  right: 208px;
+}
