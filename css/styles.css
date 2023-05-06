@@ -127,3 +127,51 @@ nav {
 .features .btn-back {
   right: 208px;
 }
+
+/* SECTION REPUTATION */
+
+.container-grid {
+  width: 1200px;
+  margin: 50px auto 80px;
+  display: grid;
+  grid-template-columns: 295px 295px 295px;
+  justify-content: space-around;
+  column-gap: 60px;
+}
+
+.reputation-titulo {
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-size: 36px;
+  line-height: 42px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.services {
+  padding: 20px;
+  border: 1.4px solid #e0e3eb;
+  border-radius: 4px;
+}
+
+h3 {
+  font-family: "Work Sans";
+  color: #3d445c;
+  font-weight: 700;
+  font-size: 40px 20px 40px 20px;
+  line-height: 23px;
+}
+
+.services p {
+  font-family: "Work Sans";
+  color: #858ead;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
