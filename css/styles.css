@@ -136,7 +136,6 @@ nav {
   display: grid;
   grid-template-columns: 295px 295px 295px;
   justify-content: space-around;
-  column-gap: 60px;
 }
 
 .reputation-titulo {
@@ -175,4 +174,62 @@ h3 {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
+}
+
+/* ABOUT US */
+
+.about {
+  display: flex;
+  position: relative;
+  margin-top: 160px;
+}
+
+.foto {
+  width: 902px;
+  height: 669px;
+}
+
+.about_us {
+  width: 488px;
+  height: 523px;
+  background-color: rgba(41, 71, 169, 1);
+  position: absolute;
+  left: calc(50% - 488px / 2 + 364px);
+  top: 60px;
+  padding: 50px 60px 60px 40px;
+  border-radius: 2px;
+}
+
+.about_us h2 {
+  font-family: "Work Sans";
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.about_us p {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.about_us .about_p1 {
+  margin-bottom: 25px;
+}
+
+.about_us .about_p2 {
+  margin-bottom: 70px;
+}
+
+.about_us button {
+  width: 219px;
+  height: 53px;
+  color: #2947a9;
+  background: #ffffff;
+  border: 2px solid #2947a9;
+  border-radius: 6px;
 }
