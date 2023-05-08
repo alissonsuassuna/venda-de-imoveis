@@ -182,6 +182,7 @@ h3 {
   display: flex;
   position: relative;
   margin-top: 160px;
+  margin-bottom: 200px;
 }
 
 .foto {
@@ -226,10 +227,134 @@ h3 {
 }
 
 .about_us button {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
   width: 219px;
   height: 53px;
   color: #2947a9;
   background: #ffffff;
   border: 2px solid #2947a9;
   border-radius: 6px;
+}
+
+/* SERVICE-SECTION */
+
+.services-section {
+  background: #f6f8f7;
+  padding: 45px 0 50px 0;
+}
+
+.services-section h2 {
+  text-align: center;
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.cards {
+  width: 271px;
+  height: 181px;
+  padding: 20px;
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+}
+
+.card-branco {
+  background-color: #fff;
+}
+.card-azul {
+  background-color: #2947a9;
+}
+.card-branco h3 {
+  color: #2947a9;
+}
+.card-azul h3 {
+  color: #fff;
+}
+
+.card-azul h3::before,
+.card-branco h3::before {
+  content: "";
+  position: absolute;
+  top: 98px;
+  left: 100px;
+  width: 60px;
+  height: 2px;
+  background: #e0e3eb;
+}
+
+.container-grid2 {
+  width: 1200px;
+  margin: 50px auto 80px;
+  display: grid;
+  grid-template-columns: 271px 271px 271px;
+  justify-content: space-around;
+  row-gap: 50px;
+}
+
+/* EXPERIENCE */
+.container-grid3 {
+  /* background-color: red; */
+  width: 1200px;
+  margin: 50px auto 80px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-content: space-around;
+}
+
+.exp-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.exp-content h2 {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  color: #2947a9;
+}
+
+.exp-content p {
+  width: 330px;
+  height: 74px;
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #525b7a;
+}
+
+.exp-content button {
+  width: 176px;
+  height: 53px;
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  padding: 16px 20px;
+  background: #2947a9;
+  border: none;
+}
+
+.exp-icons {
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
