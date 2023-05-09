@@ -306,6 +306,31 @@ h3 {
 }
 
 /* EXPERIENCE */
+.experience {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.experience h2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 84px;
+  display: flex;
+  align-items: flex-start;
+  color: #292e3d;
+}
+
+.experience h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #667299;
+}
+
 .container-grid3 {
   /* background-color: red; */
   width: 1200px;
@@ -313,6 +338,7 @@ h3 {
   display: grid;
   grid-template-columns: 2fr 1fr;
   justify-content: space-around;
+  position: relative;
 }
 
 .exp-content {
@@ -356,5 +382,141 @@ h3 {
 .exp-icons {
   display: flex;
   flex-direction: column;
-  position: relative;
+  justify-content: center;
+}
+
+/* EXPERIENCE - CLIENTES */
+.clientes {
+  padding: 10px 30px 30px 30px;
+  background-color: #fff;
+  position: absolute;
+  width: 280px;
+  height: 155px;
+  left: calc(50% - 280px / 2 - 68px);
+  top: -50px;
+  box-shadow: 0px 12px 16px -4px rgba(17, 24, 39, 0.1),
+    0px 4px 6px -2px rgba(17, 24, 39, 0.05);
+  border-radius: 4px;
+}
+
+.clientes .maos {
+  position: absolute;
+  top: -10px;
+  left: 230px;
+}
+
+.clientes h3 {
+  margin-left: 40px;
+}
+.clientes h3::before {
+  position: absolute;
+  margin-left: -15px;
+  content: "";
+  width: 7px;
+  height: 28px;
+  background: #f9995d;
+}
+
+/* EXPERIENCE - PROJECTS */
+.projects {
+  padding: 10px 30px 30px 30px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 361px;
+  height: 155px;
+  left: calc(50% - 361px / 2 - 327.5px);
+  top: 40px;
+  background: #ffffff;
+  box-shadow: 0px 12px 16px -4px rgba(17, 24, 39, 0.1),
+    0px 4px 6px -2px rgba(17, 24, 39, 0.05);
+  border-radius: 4px;
+  z-index: -1;
+}
+
+.projects .notes {
+  position: absolute;
+  top: -60px;
+  left: -25px;
+}
+
+.projects h3 {
+  margin-left: 30px;
+}
+
+.projects h3::before {
+  position: absolute;
+  margin-left: -15px;
+  content: "";
+  width: 7px;
+  height: 28px;
+  background: #f9995d;
+}
+
+/* EXPERIENCE - AWARDS */
+.awards {
+  padding: 10px 30px 30px 30px;
+  position: absolute;
+  width: 276px;
+  height: 155px;
+  left: calc(50% - 276px / 2 - 124px);
+  top: 180px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 12px 16px -4px rgba(17, 24, 39, 0.1),
+    0px 4px 6px -2px rgba(17, 24, 39, 0.05);
+  border-radius: 4px;
+}
+.awards h3 {
+  margin-left: 35px;
+}
+
+.awards h3::before {
+  position: absolute;
+  margin-left: -15px;
+  content: "";
+  width: 7px;
+  height: 28px;
+  background: #f9995d;
+}
+
+.awards .trofeus {
+  position: absolute;
+  top: -10px;
+  left: 220px;
+}
+
+/* EXPERIENCE - BUSINESS */
+.business {
+  padding: 10px 30px 30px 30px;
+  position: absolute;
+  width: 333px;
+  height: 155px;
+  left: calc(50% - 333px / 2 - 292.5px);
+  top: 300px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 12px 16px -4px rgba(17, 24, 39, 0.1),
+    0px 4px 6px -2px rgba(17, 24, 39, 0.05);
+  border-radius: 4px;
+  z-index: -2;
+}
+
+.business .plants {
+  position: absolute;
+  bottom: -40px;
+  left: 300px;
+}
+
+.business h3 {
+  margin-left: 30px;
+}
+
+.business h3::before {
+  position: absolute;
+  margin-left: -15px;
+  content: "";
+  width: 7px;
+  height: 28px;
+  background: #f9995d;
 }
