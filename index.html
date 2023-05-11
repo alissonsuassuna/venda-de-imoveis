@@ -247,59 +247,109 @@
         </div>
       </section>
       <section class="consultation">
-        <div class="consultation-content">
-          <h2>Free consultation with exceptional quality</h2>
-          <p>Just one call away: +84 1102 2703</p>
+        <div class="container-consultation">
+          <div class="consultation-content">
+            <h2>Free consultation with exceptional quality</h2>
+            <p>Just one call away: +84 1102 2703</p>
+          </div>
+          <button>Get your consultation</button>
         </div>
-        <button>Get your consultation</button>
       </section>
 
       <section class="sec-projects">
-        <h2>Projects</h2>
-        <div class="projects-menu">
-          <nav>
-            <ul>
-              <li><a href="#">All</a></li>
-              <li><a href="#">Commercial</a></li>
-              <li><a href="#">Residencial</a></li>
-              <li><a href="#">Other</a></li>
-            </ul>
-          </nav>
+        <h2 class="titulo-secprojects">Projects</h2>
+        <div class="container-projects">
+          <div class="projects-menu">
+            <nav>
+              <ul>
+                <li>
+                  <a class="ativo" href="#">All</a>
+                </li>
+                <li><a href="#">Commercial</a></li>
+                <li><a href="#">Residencial</a></li>
+                <li><a href="#">Other</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="projects-figures">
+            <figure class="figure fig1">
+              <img
+                src="./assets/images/projects/wildstone.png"
+                alt="Wilstone"
+                width="384px"
+                height="247px"
+              />
+              <figcaption>
+                <h2>Wildstone Infra Hotel</h2>
+                <p>2715 Ash Dr. San Jose, South Dakota</p>
+              </figcaption>
+            </figure>
+            <figure class="figure fig2">
+              <img
+                src="./assets/images/projects/wishstone.png"
+                alt="wishstone"
+                width="384px"
+                height="247px"
+              />
+              <figcaption>
+                <h2>Wildstone Infra Hotel</h2>
+                <p>2715 Ash Dr. San Jose, South Dakota</p>
+              </figcaption>
+            </figure>
+            <figure class="figure fig3">
+              <img
+                src="./assets/images/projects/parkinstone.png"
+                alt="parkinstone"
+                width="384px"
+                height="247px"
+              />
+              <figcaption>
+                <h2>Wildstone Infra Hotel</h2>
+                <p>2715 Ash Dr. San Jose, South Dakota</p>
+              </figcaption>
+            </figure>
+            <figure class="figure fig4">
+              <img
+                src="./assets/images/projects/oregano.png"
+                alt="oregano"
+                width="384px"
+                height="247px"
+              />
+              <figcaption>
+                <h2>Wildstone Infra Hotel</h2>
+                <p>2715 Ash Dr. San Jose, South Dakota</p>
+              </figcaption>
+            </figure>
+            <div class="navgation-btn">
+              <button class="btn-back">&larr; Back</button>
+              <span class="bol">
+                <div class="bolinha b1"></div>
+                <div class="bolinha"></div>
+                <div class="bolinha"></div>
+                <div class="bolinha"></div>
+                <div class="bolinha"></div>
+              </span>
+              <button class="btn-next">Next &rarr;</button>
+            </div>
+          </div>
         </div>
-        <div class="projects-figures">
-          <figure>
-            <img
-              src="./assets/images/projects/wildstone.png"
-              alt="Wilstone"
-              width="384px"
-              height="247px"
-            />
-          </figure>
-          <figure>
-            <img
-              src="./assets/images/projects/wishstone.png"
-              alt="wishstone"
-              width="384px"
-              height="247px"
-            />
-          </figure>
-          <figure>
-            <img
-              src="./assets/images/projects/parkinstone.png"
-              alt="parkinstone"
-              width="384px"
-              height="247px"
-            />
-          </figure>
-          <figure>
-            <img
-              src="./assets/images/projects/oregano.png"
-              alt="oregano"
-              width="384px"
-              height="247px"
-            />
-          </figure>
-        </div>
+      </section>
+
+      <section class="contact">
+        <h2>What can us do for you?</h2>
+        <p class="sub-title-contact">
+          We are ready to work on a project of any complexity, whether it's commercial or
+          residential.
+        </p>
+        <form class="form">
+          <input type="text" placeholder="Your Name*" />
+          <input id="email" type="email" placeholder="Email*" />
+          <input type="text" placeholder="Reason for Contacting*" />
+          <input id="phone" type="text" placeholder="Phone" />
+          <textarea cols="30" rows="10" placeholder="Message"></textarea>
+          <p id="req">* indicates a required field</p>
+          <input type="button" value="Submit" />
+        </form>
       </section>
     </main>
   </body>
