@@ -16,10 +16,10 @@
       <div class="container">
         <nav>
           <div class="logo">
-            <figure>
+            <figure class="fig-logo">
               <img src="./assets/images/group.png" alt="Logo principal" />
+              <figcaption class="logo-text">TheBox</figcaption>
             </figure>
-            <span>TheBox</span>
           </div>
 
           <ul class="menu">
@@ -279,7 +279,7 @@
                 width="384px"
                 height="247px"
               />
-              <figcaption>
+              <figcaption class="fig-projects">
                 <h2>Wildstone Infra Hotel</h2>
                 <p>2715 Ash Dr. San Jose, South Dakota</p>
               </figcaption>
@@ -291,7 +291,7 @@
                 width="384px"
                 height="247px"
               />
-              <figcaption>
+              <figcaption class="fig-projects">
                 <h2>Wildstone Infra Hotel</h2>
                 <p>2715 Ash Dr. San Jose, South Dakota</p>
               </figcaption>
@@ -303,7 +303,7 @@
                 width="384px"
                 height="247px"
               />
-              <figcaption>
+              <figcaption class="fig-projects">
                 <h2>Wildstone Infra Hotel</h2>
                 <p>2715 Ash Dr. San Jose, South Dakota</p>
               </figcaption>
@@ -315,7 +315,7 @@
                 width="384px"
                 height="247px"
               />
-              <figcaption>
+              <figcaption class="fig-projects">
                 <h2>Wildstone Infra Hotel</h2>
                 <p>2715 Ash Dr. San Jose, South Dakota</p>
               </figcaption>
@@ -343,14 +343,45 @@
         </p>
         <form class="form">
           <input type="text" placeholder="Your Name*" />
-          <input id="email" type="email" placeholder="Email*" />
+          <input class="email" type="email" placeholder="Email*" />
           <input type="text" placeholder="Reason for Contacting*" />
-          <input id="phone" type="text" placeholder="Phone" />
+          <input class="phone" type="text" placeholder="Phone" />
           <textarea cols="30" rows="10" placeholder="Message"></textarea>
           <p id="req">* indicates a required field</p>
-          <input type="button" value="Submit" />
+          <input class="form-btn" type="button" value="Submit" />
         </form>
       </section>
     </main>
+
+    <footer class="footer">
+      <address class="footer-address">
+        <div class="address">
+          <h4><span>Address:</span> 6391 Elgin St. Celina, Delaware 10299</h4>
+          <h4><span>Phone:</span> +84 1102 2703</h4>
+          <h4><span>Email:</span> hello@thebox.com</h4>
+          <div class="logo">
+            <figure class="fig-logo">
+              <img src="./assets/images/group.png" alt="Logo principal" />
+              <figcaption class="logo-text">TheBox</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="news">
+          <h4>Newsletter:</h4>
+          <form class="subscribe">
+            <input type="email" id="sub-email" />
+            <input type="submit" value="Subscribe" />
+          </form>
+          <h4>
+            <span>Social:</span>
+            <figure>
+              <img src="./assets/images/icon/facebook.png" alt="Facebook" />
+              <img src="./assets/images/icon/facebook.png" alt="Facebook" />
+              <img src="./assets/images/icon/facebook.png" alt="Facebook" />
+            </figure>
+          </h4>
+        </div>
+      </address>
+    </footer>
   </body>
 </html>

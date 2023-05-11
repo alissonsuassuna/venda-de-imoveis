@@ -22,7 +22,11 @@ header nav {
   gap: 14px;
 }
 
-.logo span {
+.fig-logo {
+  display: flex;
+  align-items: center;
+}
+.logo .fig-logo .logo-text {
   font-family: "Work Sans", sans-serif;
   font-weight: 700;
   font-size: 30px;
@@ -649,7 +653,7 @@ h3 {
   position: absolute;
 }
 
-figcaption {
+.fig-projects {
   position: relative;
   top: 247px;
   display: flex;
@@ -717,6 +721,7 @@ figcaption {
 
 .contact {
   background: #f6f8f7;
+  padding: 60px 0 60px 0;
 }
 
 .contact h2 {
@@ -755,7 +760,6 @@ input::placeholder {
 input {
   width: 280px;
   height: 40px;
-  margin-bottom: 20px;
 }
 
 textarea {
@@ -772,9 +776,10 @@ textarea::placeholder {
   color: #a3aac2;
 }
 
-#email,
-#phone {
+.email,
+.phone {
   margin-left: 28px;
+  margin-bottom: 20px;
 }
 
 .form #req {
@@ -784,4 +789,33 @@ textarea::placeholder {
   font-size: 16px;
   line-height: 19px;
   color: rgb(8, 0, 255);
+}
+
+.form .form-btn {
+  display: block;
+  margin: 0 auto;
+  height: 53px;
+  width: 271px;
+  padding: 16px 20px 16px 20px;
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  background: #2947a9;
+  border-radius: 5px;
+  border: none;
+}
+
+/* FOOTER */
+
+.footer {
+  padding: 85px 0 85px 0;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.footer-address {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
 }
