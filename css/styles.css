@@ -824,6 +824,7 @@ textarea::placeholder {
   display: flex;
   justify-content: space-between;
   gap: 30px;
+  font-style: normal;
 }
 
 .footer-address h4 {
@@ -848,10 +849,10 @@ textarea::placeholder {
   gap: 30px;
 }
 
-.subscribe .news .social {
+.social {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
 }
 
 .social-icons img {
